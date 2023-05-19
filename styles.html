@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn Arduino with Ethan</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+	
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="icomoon/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body1>
+
+<div id="overlayer">
+	<span class="loader">
+	  <span class="loader-inner"></span>
+	</span>
+</div>
+
+<div class="nav nav-overlay">
+	<div class="nav__content">
+		<ul class="nav__list">
+			<li class="nav__list-item"><a href="index.html" class="hover-target">Home</a></li>
+			<li class="nav__list-item active-nav"><a href="#" class="hover-target">Tutorials</a></li>
+			<li class="nav__list-item"><a href="blog.html" class="hover-target">Resources</a></li>
+		</ul>
+	</div>
+</div>
+
+<header id="header">
+	<div class="header-wrap" data-aos="fade">
+		<div class="main-logo">
+			<a href="index.html">Ethan</a>
+		</div><!--main-logo-->
+
+		<nav id="navbar">
+			<input id="menu-toggle" type="checkbox" />
+			<label class="menu-btn" for="menu-toggle">
+			<span></span>
+			</label>
+		</nav>	
+
+	</div><!--header-wrap-->
+</header>
+
+<section class="hero-section jarallax">	
+	<img src="images/main-banner.jpg" class="jarallax-img">
+	<div class="hero-content padding-xlarge">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">			
+					<h1 class="page-title">My Projects and Tutorials</h1>
+					<div class="breadcrumbs">
+						<span class="item"><a href="index.html">Home /</a></span>
+						<span class="item">Styles</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="padding-large">
+	<div class="container">
+		<h2>Project Descriptions:</h2>
+		<div class="row">
+
+			<div class="col-md-6">
+				
+				<h3>The Infinite Runner Game</h3>
+
+				<p>This runner game utilizes key concepts in arrays (programming) and some basic circuitry. Below, there will be an attachment for a diagram along with a tutorial 
+					that you can follow along with. In this project, a button, resistor, and LCD display are connected. By connecting the power to the resistor to the LCD, it is
+					able to power on and display the moving game. The game demonstrates aspects of scrolling by causing the character to moving right and making the player lose if 
+					the mini player sprite ever comes in contact with a barrier/obstacle.
+				</p>
+
+			</div>
+
+			<div class="col-md-6">
+
+				<h3>Buzzer, button, LED memory Game</h3>
+
+				<p>This project utilizes basic concepts of conditionals and arrays. The buzzer will sound if a player is unable to repeat the sequence back. 
+					With the addition of the buzzer, lights will flash and players must repeat back the sequence in order to advance to the next step where the sequence
+					increases by 1 more light. There are corresponding buttons for each light. It is similar to Bop it or any other memory repeating games.
+				</p>
+
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-4">
+
+				<h4>IR Remote Introduction</h4>
+
+				<p>The Arduino sensor is able to detect IR signals from the IR remote and can use that data to display for the user or for other purposes. I created
+					a system where the Arduino will detect what button is pressed and display it on the Arduino module. This project was just an intro so this idea can 
+					be expanded upon greatly.
+				</p>
+
+			</div>
+
+			<div class="col-md-4">
+
+				<h4>Arduino Smart Car</h4>
+
+				<p>Instead of using the Arduino tool box you need to use the Arduino Smart Car project box. Through a series of 3 videos, we walk through unboxing, 
+					analyzing, and creating the Arduino Smart Car. The smart car uses sensor modulus and can be controlled by an app on a phone or the IR remote.
+					It can also follow a track such as black tape provided in the kit.
+				</p>
+
+			</div>
+
+			<div class="col-md-4">
+
+				<h4>Motor Controlled by Joystick</h4>
+
+				<p>The name is pretty self explanatory as the Arduino uses the data provided by the motor and joystick's position to move the servo motor. It uses
+					the joysticks x and y values which can be used to calculate an approximate direction for the servo motor. In this project, if you move the joystick
+					to the right, the motor head will move as well. Changes in y axis causes little change but still not as much as changes in x.
+				</p>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<hr border-color:"black">
+				<h2>Other featured projects</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<figure>
+					<img src="images/Im2.jpg">
+					<figcaption>Similar to the Servo Motor Buzzer project but the buzzer is replaced by an LED</figcaption>
+				</figure>
+			</div>
+			<div class="col-md-6">
+				<figure>
+					<a href="images/C.jpg"  class="image-link">
+					<img src="images/C.jpg"></a>
+					<figcaption>(Made last December)- Christmas music player, each button corresponds to a different song like Jinge Bells, Frosty the Snowman etc.</figcaption>
+				</figure>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<section class="padding-small">
+	<div class="container">		
+		<hr>
+		<div class="row">
+			<div class="col-md-6">
+				<h3>What you need for these projects:</h3>
+				<ul>
+				   <li>Arduino IDE</li>
+				   <li>Arduino UNO and wire</li>
+				   <li>Arduino UNO kit (LCD, servo motor, joystick etc.)</li>
+				   <li>Arduino Robot Car Kit</li>
+				</ul>
+						 
+			</div>
+			<div class="col-md-6">
+				<h3>Where you can find each item</h3>
+				<ol>
+				   <li>Arduino IDE download: <b><a href="https://www.arduino.cc/en/software" style="color: #b47903">Download here!</a></b></li>
+				   <li>Arduino on Amazon: <b><a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/ref=asc_df_B008GRTSV6?tag=bingshoppinga-20&linkCode=df0&hvadid=80814156492411&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4584413735804251&th=1" style="color: #b47903">Buy here!</a></b></li>
+				   <li>Arduino kit with all modulus: <b><a href="https://www.amazon.com/ELEGOO-Project-Tutorial-Controller-Projects/dp/B01D8KOZF4/ref=asc_df_B01D8KOZF4?tag=bingshoppinga-20&linkCode=df0&hvadid=79989526348972&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583589114585783&psc=1" style="color: #b47903">Purchase from Amazon here!</a></b></li>
+				   <li>Arduino Robot Car: <b><a href="https://www.amazon.com/LAFVIN-Mechanical-Graphical-Programming-Compatible/dp/B09NSJLLNQ/ref=asc_df_B09NSJLLNQ?tag=bingshoppinga-20&linkCode=df0&hvadid=80470640259185&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4584070163472146&psc=1" style="color: #b47903">Found here, on Amazon!</a></b></li>
+				   <li>Try using the Arduino Nano, good for beginners: <b><a href="https://store-usa.arduino.cc/products/arduino-nano?msclkid=179ecf91eee71f6db831abf7925b425e" style="color: #b47903">Purchase here!</a></b></li>
+				   </li>
+				</ol>
+				
+			</div>
+		</div>
+
+<section class="padding-large">
+	<div class="container">
+		
+		<div class="row">
+			<div class="col">
+				<h2>Simple Project Tutorials:</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+
+				<div class="accordion" id="accordionExample">
+				  <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingOne">
+				      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				        Scrolling effect LCD (code and diagram) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp difficulty: ***
+				      </button>
+				    </h2>
+				    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+				      <div class="accordion-body">
+				        <strong>Code and diagram</strong>
+						<p>#include <LiquidCrystal.h>
+
+							// initialize the library by associating any needed LCD interface pin <br> 
+							// with the arduino pin number it is connected to<br>
+							const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;<br>
+							LiquidCrystal lcd(rs, en, d4, d5, d6, d7);<br>
+							<br>
+							void setup() {<br>
+							  // set up the LCD's number of columns and rows:<br>
+							  lcd.begin(16, 2);<br>
+							  // Print a message to the LCD.<br>
+							  lcd.print("hello, world!");<br><img src="images/ss.png" height="300" width="700" style="float:right">
+							  delay(1000);<br>
+							}<br>
+							<br>
+							void loop() {<br>
+							  // scroll 13 positions (string length) to the left<br>
+							  // to move it offscreen left:<br>
+							  for (int positionCounter = 0; positionCounter < 13; positionCounter++) {<br>
+								// scroll one position left:<br>
+								lcd.scrollDisplayLeft();<br>
+								// wait a bit:<br>
+								delay(150);<br>
+							  }<br>
+							  <br>
+							  // scroll 29 positions (string length + display length) to the right<br>
+							  // to move it offscreen right:<br>
+							  for (int positionCounter = 0; positionCounter < 29; positionCounter++) {<br>
+								// scroll one position right:<br>
+								lcd.scrollDisplayRight();<br>
+								// wait a bit:<br>
+								delay(150);<br>
+							  }<br>
+							  <br>
+							  // scroll 16 positions (display length + string length) to the left<br>
+							  // to move it back to center:<br>
+							  for (int positionCounter = 0; positionCounter < 16; positionCounter++) {<br>
+								// scroll one position left:<br>
+								lcd.scrollDisplayLeft();<br>
+								// wait a bit:<br>
+								delay(150);<br>
+							  }<br>
+							  <br>
+							  // delay at the end of the full loop:<br>
+							  delay(1000);<br>
+							  <br>
+							}</p>
+							
+				      </div>
+				    </div>
+				  </div>
+				  <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingTwo">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				        Joystick controlling Servo (code and diagram) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp difficulty: **
+				      </button>
+				    </h2>
+				    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+				      <div class="accordion-body">
+				        <strong>Code and diagram:</strong> <p>#include <Servo.h> // library <br>
+
+							Servo myservo;   // class and our object name<br><img src="images/CD.png" height="300" width="700" style="float:right">
+							int pos=0; <br>
+							const int X_pin = A0; // analog pin connected to X output<br>
+							const int Y_pin = A1; // analog pin connected to Y output<br>
+							float posA; <br>
+							float posAA;<br>
+							<br>
+							void setup() {<br>
+							  Serial.begin(9600); // serial communication <br>
+							  myservo.attach(4);  // defines which node is connected to the servo. <br>
+							  myservo.write(0); // writes the position to the servo<br>
+							  delay (1000); <br>
+							}<br>
+							<br>
+							void loop() {<br>
+							  myservo.write(posAA); <br>
+							  posA= analogRead(X_pin); <br>
+							  posAA= (posA*180.0/1023.0) ;<br>
+							  Serial.println((int)posAA); <br>
+							  Serial.println(pos);<br>
+							}</p>
+					  </div>
+				    </div>
+				  </div>
+				  <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingThree">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				        Buzzer Servo sensor (code and diagram) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp difficulty: **
+				      </button>
+				    </h2>
+				    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+				      <div class="accordion-body">
+				        <strong>Code and diagram:</strong> 
+						<p>
+							#include "SR04.h"<br><img src="images/C3.png" height="300" width="700" style="float:right">
+							int TRIG_PIN = 12;<br>
+							int ECHO_PIN = 11;<br>
+							int BUZZER_PIN = XXXXX; //Pin number for buzzer<br>
+							
+							SR04 sr04 = SR04(ECHO_PIN,TRIG_PIN);<br>
+							long a;<br>
+							<br>
+							void setup() {<br>
+							   Serial.begin(9600);<br>
+							   delay(1000);<br>
+							   pinMode(BUZZER_PIN, OUTPUT);<br>
+							}<br>
+							<br>
+							void loop() {<br>
+							   digitalWrite(BUZZER_PIN, LOW); //Turn off Buzzer<br>
+							   a=sr04.Distance();<br>
+							   Serial.print(a);<br>
+							   Serial.println("cm");<br>
+							   delay(500);<br>
+							   <br>
+							   if (XXXXXXXX){ //Fill in the condition<br>
+							   XXXXXXXXXXXXX //Turn on the buzzer<br>
+							   delay(500); <br>
+							   }<br>
+							}<br>
+							</p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+			</div>	
+		</div>
+	</div>
+</section>
+
+		<div class="row2">
+			<div class="col-md-12">
+				<h2>My experience with the Arduino</h2>
+			</div>
+		</div>
+	
+
+		<div class="row" class="padding-xlarge">
+			<div class="col-md-6">
+				<div class="bootstrap-tabs">
+					<nav>
+					  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+					    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+					    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+					    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+					  </div>
+					</nav>
+					<div class="tab-content" id="nav-tabContent">
+					  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"> If you are completely new to programming 
+						and circuits in general I have some good tutorials to learn. Instead of copying the code, try to trace and learn how each line works. By creating a 
+						foundation for yourself, you allow yourself to grow and learn naturally. If you want to start fresh with a tutorial, visit my resources section where
+						you can see videos about starting the Arduino. I was very new to Arduino originally and without much guidance, I had to learn on my own. I hope
+						that my website can ease that transition and help you learn efficiently and effectively! <br><br>On the right, I compare other examples of computer boards:
+					  </div>
+					  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">After going to a summer program that
+						taught basics about the Arduino, I decided to learn more about it. During the summer program, I learned basic projects like the ones 
+						listed above. During the summer program, I worked with professors and with my group, we prepared a complex alarm system. I decided to expand 
+						on this passion by creating a website about my projects and provide tutorials. I decided to make more projects and I have gained lots of
+						programming and circuit experience over the years. I have also developed a fluency in programming. Overall, Arduino is a very cool and interactive
+						hobby which you can learn about!</div>
+					  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">If you have any questions or suggestions, feel free to message me through any of these platforms: <br>
+						<br>Email: <b> ewpoon007@gmail.com</b> <br>
+						<br>Instagram: <b>epoon2025</b> <br>
+						<br>Facebook: <b>Ethan Poon</b>
+					  </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="accordion" id="accordionExample2">
+				  <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingOne">
+				      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse1" aria-expanded="true" aria-controls="accordion-collapse1">
+				        Arduino
+				      </button>
+				    </h2>
+				    <div id="accordion-collapse1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
+				      <div class="accordion-body">
+				        There are various Arduino boards like the Uno, Nano, and Mega. It is an open-source hardware and software company, project, and user community that designs and manufactures single-board 
+						microcontrollers and microcontroller kits for building digital devices. Paired with other modulus, you can create various new projects.
+				      </div>
+				    </div>
+				  </div>
+				  <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingTwo">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse2" aria-expanded="false" aria-controls="accordion-collapse2">
+				        Raspberry Pi
+				      </button>
+				    </h2>
+				    <div id="accordion-collapse2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+				      <div class="accordion-body">
+				        It is widely used in many areas, such as for weather monitoring, computing, gaming, and electronic equipment because of its low cost, modularity, and open design. It is typically 
+						used by computer and electronic hobbyists, due to its adoption of the HDMI and USB standards. Compared to Arduino, it can do a lot more.
+				      </div>
+				    </div>
+				  </div>
+				  <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingThree">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse3" aria-expanded="false" aria-controls="accordion-collapse3">
+				        ASUS Tinker Board S
+				      </button>
+				    </h2>
+				    <div id="accordion-collapse3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
+				      <div class="accordion-body">
+				        This board is similar to the Raspberry Pi in features and capabilities.It features the same 40-pin connector you’d normally find in the 
+						standard Raspberry Pi 3 Model but offers a powerful processor and a GPU. In size, both computer boards are similar.
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+			</div>
+
+		</div>
+
+		
+<section class="padding-medium"></section>
+
+<section id="testimonials" class="jarallax padding-large">
+	<img src="images/pi1.jpg" class="jarallax-img">
+
+	<div class="container">
+		<div class="row">
+				<div class="section-header dark align-center">
+					<div class="title">
+						<span>The Raspberry Pi</span>
+					</div>
+					<h2 class="section-title dark">Projects</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="testimonial-slider">
+					<div class="testimonials-inner text-center">
+						<p>Raspberry Pi is really cool to learn. Previously, I made an arcade which allows you to play old school games like Donkey Kong and Metal Slug. It is a fun and cool way to learn 
+							if you are looking for more complex projects!
+						</p>
+
+					</div>
+												
+				</div>
+			</div>
+		</div>
+</section>
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+	</body>
+</html>
